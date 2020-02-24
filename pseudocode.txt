@@ -1,0 +1,60 @@
+1. Newton Second Law
+
+
+STORE 'massa benda' to 600;
+STORE 'Pecepatan benda'  to 2;
+SET 'gaya' EQUAL to CALCULATE masa benda times percepatan benda;
+DISPLAY 'gaya';
+
+
+2.Tahun Kabisat
+
+STORE 'year' to any number;
+
+IF 'year' mod 4 is 0 and 'year' mod 100 is not 0
+    DISPLAY ' 'year' adalah tahun kabisat';
+ELSE IF 'year' mod 4 is 0 and 'year' mod 100 is 0 and 'year' mod 400 is 0
+    DISPLAY ' 'year' adalah tahun kabisat';
+ELSE 
+    DISPLAY 'year' bukan tahun kabisat';
+
+
+3. Laundry Day
+
+STORE 'pakaian' to 0;
+
+WHILE 'pakaian' <= 20
+    ADD 'pakaian' by 1
+    DISPLAY 'pakaian'
+    ADD 'pakaian' by 1
+    IF 'pakaian' <= 20
+        DISPLAY 'masukan lagi pakaiannya';
+    ELSE 
+        DISPLAY 'mencuci sekarang';
+
+
+4. Periksa Kuku 
+
+STORE 'kuku1' to 'panjang';
+STORE 'kuku2' to 'pendek';
+STORE 'nama siswa' to 'kuku1' or 'kuku2'
+
+IF 'nama siswa' EQUAL to 'kuku1'
+    DISPLAY 'Kamu dihukum';
+ELSE IF 'nama siswa' EQUAL to 'kuku2'
+    DISPLAY 'kamu murid teladan';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
